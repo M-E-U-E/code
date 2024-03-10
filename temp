@@ -11,6 +11,18 @@ bool cmp(pair<int,int>a,pair<int,int> b)
 
     return false;
 }
+const int N = 1e5+10;
+bitset <N> vis;
+void sieve (void)
+{
+    for (int i = 2; i * i < N; ++i)
+    {
+        if (!vis[i])
+        {
+            for (int j = i * i; j < N; j += i) vis[j] = 1;
+        }
+    }
+}
 void solve()
 {
     
