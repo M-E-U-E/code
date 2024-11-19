@@ -34,7 +34,7 @@ bool cmp(pair<int,int>a,pair<int,int> b)
 //        }
 //    }
 //
-//    // This condition is to handle the case when n
+//    //This condition is to handle the case when n
 //    // is a prime number greater than 2
 //    if (n > 2)
 //        v.push_back(n);
