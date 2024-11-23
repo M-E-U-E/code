@@ -25,7 +25,7 @@ bool cmp(pair<int,int>a,pair<int,int> b)
 //    // one element (Note i = i +2)
 //    for (ll i = 3; i*i<=n; i = i + 2)
 //    {
-//        // While i divides n, print i and divide n
+//        // While i divides n, print i and divide n.
 //        while (n % i == 0)
 //        {
 //            // cout<<i<<ss;
