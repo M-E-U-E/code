@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 #define ll long long
 #define endl "\n"
+#define meue M
 using namespace std;
 bool cmp(pair<int,int>a,pair<int,int> b)
 {
